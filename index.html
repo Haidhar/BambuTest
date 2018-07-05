@@ -1,0 +1,79 @@
+<html>
+   <body>
+
+      <form action = "http://127.0.0.1:8081/process_get" method = "GET">
+         <!-- Name: <input type = "text" name = "first_name">  <br> -->
+         <!-- Last Name: <input type = "text" name = "last_name"> -->
+         <h3>User Profiling System</h3>
+         <div className="row">
+          <div className="col-sm-6">
+            <div className="form-group row">
+              <label className="col-form-label col-md-3 col-lg-4">
+                Name
+              </label>
+              <div className="col-md-9 col-lg-8">
+                <div className="radio radio-success">
+                  <input type="text" name="name">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><br />
+
+         <div className="row">
+          <div className="col-sm-6">
+            <div className="form-group row">
+              <label className="col-form-label col-md-3 col-lg-4">
+                Saving Amount
+              </label>
+              <div className="col-md-9 col-lg-8">
+                <div className="radio radio-success">
+                  <input type="radio" name="saving" value="0">
+                  <label htmlFor="0">0</label><br />
+                  <input type="radio" name="saving" value="2000">
+                  <label htmlFor="2000">2000</label><br />
+                  <input type="radio" name="saving" value="4000">
+                  <label htmlFor="4000">4000</label><br />
+                  <input type="radio" name="saving" value="6000">
+                  <label htmlFor="6000">6000</label><br />
+                  <input type="radio" name="saving" value="8000">
+                  <label htmlFor="8000">8000</label><br />
+                  <input type="radio" name="saving" value="10000">
+                  <label htmlFor="10000">10000</label>
+                </div>
+              </div>
+            </div>
+          </div><br />
+          <div className="col-sm-6">
+            <div className="form-group row">
+              <label className="col-form-label col-md-3 col-lg-4">
+                Loan Amount
+              </label>
+              <div className="col-md-9 col-lg-8">
+                <div className="radio radio-success">
+                  <input type="radio" name="loan" value="0">
+                  <label htmlFor="0">0</label><br />
+                  <input type="radio" name="loan" value="2000">
+                  <label htmlFor="2000">2000</label><br />
+                  <input type="radio" name="loan" value="4000">
+                  <label htmlFor="4000">4000</label><br />
+                  <input type="radio" name="loan" value="6000">
+                  <label htmlFor="6000">6000</label><br />
+                  <input type="radio" name="loan" value="8000">
+                  <label htmlFor="8000">8000</label><br />
+                  <input type="radio" name="loan" value="10000">
+                  <label htmlFor="10000">10000</label>
+                </div>
+              </div>
+            </div>
+          </div><br />
+        </div>
+        <div className="row">
+         <div className="col-sm-6">
+          <input type = "submit" value = "Submit">
+         </div>
+       </div>
+      </form>
+
+   </body>
+</html>
